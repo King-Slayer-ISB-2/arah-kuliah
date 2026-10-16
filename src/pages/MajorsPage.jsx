@@ -99,7 +99,7 @@ export default function MajorsPage() {
               </EmptyState>
             </div>
           ) : (
-            <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <ul className="mt-8 grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
               {visible.map((m) => (
                 <li key={m.id}>
                   <MajorCard major={m} onOpen={(id) => setSearchParams({ buka: id })} />
