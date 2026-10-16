@@ -5,7 +5,7 @@ import Icon from '../ui/Icon.jsx'
 
 const links = [
   { to: '/', label: 'Beranda', end: true },
-  { to: '/quiz', label: 'Kuis Kuisan' },
+  { to: '/quiz', label: 'Kuis Eksplorasi' },
   { to: '/hasil', label: 'Hasil' },
   { to: '/jurusan', label: 'Katalog Jurusan' },
 ]
